@@ -24,7 +24,7 @@ int main(){
   int n = sizeof(arr)/sizeof(arr[0]);
   int d;
   cin >> d;
-  //rotate(arr,n);
+  rotate(arr,n);
    rotateP(arr,n,d);
   for (int i = 0; i < n; i++) {
          cout << arr[i] << " ";
